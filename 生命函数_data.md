@@ -60,3 +60,7 @@ Array 数组
 Date 日期
 1. var date = new Date()
 2. var date = new Date(年，月，日)
+
+---
+cite data base  `const name = wx.cloud.database()`  
+get data `name.collection("demo_name").doc("data id").get({})`
