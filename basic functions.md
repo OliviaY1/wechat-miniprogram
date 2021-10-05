@@ -80,22 +80,5 @@ js：
 
 
 
-## JS生命函数
 
-在xtml中绑定一个生命函数, 用`bindxxx= "handleUserInfo"`回调中获取到用户信息
-
-在js中保存用户信息
-
-```js
-data: {
-    var_name: {} //data中初始化一个值
-}
-handleUserInfo(res){
-    if (res.detail.userInfo){ // 如果用户点击了授权
-        this.setData({
-            var_name: res.detail.userInfo 
-        })
-    }
-}
-```
 
